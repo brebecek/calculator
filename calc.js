@@ -18,7 +18,8 @@ function divide(a,b){
     return a / b;
 }
 
-function operate (a, oper, b){
+function operate (){
+    dis[;ay]
     if (oper === "+"){
     return add(a,b);
     } else if (oper === "-"){
@@ -28,4 +29,14 @@ function operate (a, oper, b){
     } else if (oper === "/"){
         return divide(a,b);
     }
+}
+
+const display = document.getElementById("display");
+
+function appendToDisplay(input){
+    display.value += input;
+}
+
+function clearDisplay(){
+    display.value = "";
 }
